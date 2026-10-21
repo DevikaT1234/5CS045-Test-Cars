@@ -9,7 +9,7 @@
 	
 	// echo ("Connection successful");
 	
-	$sql = "SELECT Student_name, Course, Grade, Date_of_enrolment FROM students";
+	$sql = "SELECT Car_name, Manufacturer, Price, Year_of_release FROM carss";
 	
 	$result = $mysqli->query($sql);
 	
@@ -19,4 +19,4 @@
 	}	
 	echo ("Data retrieval successful"); 
 	
-?> 	
+?> 
